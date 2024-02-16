@@ -41,40 +41,62 @@
 
     <div class="container-flex m-auto">
 
-      <div class="row">
-        <div class="col">
-          <div>
-            <h3>My balance</h3>
-            <p>$921.48</p>
+      <div class="row balance rounded-3 py-4 px-2 mb-3">
+        <div class="col-12 d-flex justify-content-between">
+          <div class="d-flex flex-column align-items-start justify-content-center balance-value">
+            <span class="mb-2">My balance</span>
+            <p class="h2 mb-0 fw-bold">$921.48</p>
           </div>
-          <img src="/images/logo.svg" alt="">
+          <img class="logo img-fluid" src="/images/logo.svg" alt="">
         </div>
       </div>
 
-      <div class="row">
-        <div class="col">
-          <h1>Spending - Last 7 days</h1>
+      <div class="row total rounded-3 py-4 px-2">
+        <div class="col-12">
+          <h1 class="fw-bold mb-5">Spending - Last 7 days</h1>
 
-          <div class="chart">
-            <div class="monday">mon</div>
-            <div class="tuesday">tue</div>
-            <div class="wednesday">wed</div>
-            <div class="thursday">thu</div>
-            <div class="friday">fri</div>
-            <div class="saturday">sat</div>
-            <div class="sunday">sun</div>
+          <div class="chart d-flex gap-3 description fw-bold">
+            <div class="d-flex flex-column-reverse">
+              <div class="day">mon
+              </div>
+              <span class="chart-bar monday rounded-1"></span>
+            </div>
+            <div class="d-flex flex-column-reverse">
+              <div class="day">tue</div>
+              <span class="chart-bar tuesday rounded-1"></span>
+            </div>
+            <div class="d-flex flex-column-reverse">
+              <div class="day">wed</div>
+              <span class="chart-bar wednesday rounded-1"></span>
+            </div>
+            <div class="d-flex flex-column-reverse">
+              <div class="day">thu</div>
+              <span class="chart-bar thursday rounded-1"></span>
+            </div>
+            <div class="d-flex flex-column-reverse">
+              <div class="day">fri</div>
+              <span class="chart-bar friday rounded-1"></span>
+            </div>
+            <div class="d-flex flex-column-reverse">
+              <div class="day">sat</div>
+              <span class="chart-bar saturday rounded-1"></span>
+            </div>
+            <div class="d-flex flex-column-reverse">
+              <div class="day">sun</div>
+              <span class="chart-bar sunday rounded-1"></span>
+            </div>
           </div>
 
           <hr>
 
-          <div>
-            <div class="total">
-              <h3>Total this month</h3>
-              <p>$478.33</p>
+          <div class="d-flex justify-content-between fw-bold">
+            <div>
+              <span class="description">Total this month</span>
+              <p class="h1 mb-0 fw-bolder">$478.33</p>
             </div>
-            <div class="last_month">
-              <p>+2.4%</p>
-              <p>from last month</p>
+            <div class="last_month mt-auto">
+              <p class="mb-0 text-end">+2.4%</p>
+              <p class="mb-0 description">from last month</p>
             </div>
           </div>
 

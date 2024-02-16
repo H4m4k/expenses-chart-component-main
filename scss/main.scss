@@ -44,22 +44,77 @@ body {
     margin: 0;
     min-height: 100svh;
     background-color: var(--color-cream);
-}
 
-/* Atribution */
-.attribution {
-    font-size: 11px;
-    text-align: center;
-
-    & a {
-        color: hsl(228, 45%, 44%);
-    }
+    font-family: "DM Sans";
 }
 
 .main {
     height: 100svh;
 }
 
-.custom-width {
-    max-width: 375px;
+// *******
+// BALANCE
+
+.balance {
+    background: var(--color-soft-red);
+}
+.total {
+    background: var(--color-very-pale-orange);
+}
+.balance-value {
+    color: var(--color-cream);
+}
+.logo {
+    width: 20%;
+}
+.description {
+    color: var(--color-medium-brown);
+}
+
+// ******
+// CHART
+
+.day {
+    color: var(--color-medium-brown);
+    font-size: 0.75em;
+    text-align: center;
+    margin-top: 1rem;
+}
+.chart-bar {
+    background: var(--color-soft-red);
+    width: 2em;
+    height: 3em;
+}
+.chart-bar.tuesday {
+    height: 6em;
+}
+.chart-bar.wednesday {
+    height: 9em;
+    background: var(--color-cyan);
+}
+.chart-bar.thursday {
+    height: 5em;
+}
+.chart-bar.friday {
+    height: 4em;
+}
+.chart-bar.saturday {
+    height: 7.5em;
+}
+.chart-bar.sunday {
+    height: 4.5em;
+}
+
+/* Atribution */
+.attribution {
+    position: absolute;
+    bottom: 5em;
+    left: 3em;
+    right: 3em;
+    font-size: 11px;
+    text-align: center;
+
+    & a {
+        color: hsl(228, 45%, 44%);
+    }
 }
