@@ -83,27 +83,26 @@ body {
 .chart-bar {
     background: var(--color-soft-red);
     width: 2em;
-    height: 3em;
+    // height: 3em;
 }
-.chart-bar.tuesday {
-    height: 6em;
-}
-.chart-bar.wednesday {
-    height: 9em;
-    background: var(--color-cyan);
-}
-.chart-bar.thursday {
-    height: 5em;
-}
-.chart-bar.friday {
-    height: 4em;
-}
-.chart-bar.saturday {
-    height: 7.5em;
-}
-.chart-bar.sunday {
-    height: 4.5em;
-}
+// .chart-bar.tue {
+//     height: 6em;
+// }
+// .chart-bar.wed {
+//     height: 9em;
+// }
+// .chart-bar.thu {
+//     height: 5em;
+// }
+// .chart-bar.fri {
+//     height: 4em;
+// }
+// .chart-bar.sat {
+//     height: 7.5em;
+// }
+// .chart-bar.sun {
+//     height: 4.5em;
+// }
 
 /* Atribution */
 .attribution {
@@ -117,4 +116,8 @@ body {
     & a {
         color: hsl(228, 45%, 44%);
     }
+}
+
+.cyan {
+    background: var(--color-cyan);
 }
